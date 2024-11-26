@@ -1,0 +1,14 @@
+:root {
+    --def-bg: rgb(40, 39, 43);
+    --def-hdr-bg: rgb(28, 27, 31);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--def-bg);
+}
+
+.defbg {
+    background-color: var(--def-hdr-bg);
+}
