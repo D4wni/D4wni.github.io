@@ -53,6 +53,13 @@ h1 {
     border-radius: 20px;
     padding-left: 16px;
     padding-right: 16px;
+
+    transition: all 0.25s cubic-bezier(.24,0,.72,1.6);
+}
+
+.rnd-bg:hover {
+    background-color: rgb(139, 139, 0);
+    transform: scale(1.1);
 }
 
 /* START */
